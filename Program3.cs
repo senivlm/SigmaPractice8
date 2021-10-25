@@ -21,7 +21,7 @@ namespace HW8_3
             }
             Br = new int[sentence.Length];
         }
-
+ідентифікатор str.
         public int Num(string Str)
         {
             int current_max = 0;
@@ -83,6 +83,7 @@ namespace HW8_3
             return position;
         }
 
+        Делегат краще було винести поза клас
         public void Sort(Program.MoreOrLess del)
         {
             int size = sent.Capacity;
