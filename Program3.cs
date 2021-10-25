@@ -4,7 +4,7 @@ using System.IO;
 namespace HW8_3
 {
     class Sent
-    {
+    { Не потрібно шлях виносити в поле. Достатньо зробити його параметром методу
         private const string path = @"C:\Users\admin\source\repos\Practice8_1\Sentences.txt";
         private string[] sentence;
         private List<string> sent;
@@ -21,7 +21,7 @@ namespace HW8_3
             }
             Br = new int[sentence.Length];
         }
-
+змінні іменуються з маленької літери str
         public int Num(string Str)
         {
             int current_max = 0;
@@ -128,7 +128,7 @@ namespace HW8_3
     {
         public delegate bool MoreOrLess(int x, int y);
         static void Main(string[] args)
-        {
+        {З кольорами побавились, це добре. Але сигнатура методу сортування мала бути універсальнішою
             Sent sent = new Sent();
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("The deepest one is");
