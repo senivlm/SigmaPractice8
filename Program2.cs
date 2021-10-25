@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 
 namespace practice8_2
-{
+{Не треба методи іменувати завданнями. Треба по суті. Ми один клас видозмінюємо для кількох задач.
     class Storage
     {
         private Dictionary<string, Product> arrayOfProduct;
